@@ -25,8 +25,11 @@ export default function Dashboard() {
           </div>
         </section>
       </div>
-      <Link href="/onboarding">
-        <a className="mt-6 px-4 py-2 bg-gray-200 rounded hover:bg-gray-300">Back to Onboarding</a>
+      <Link
+        href="/onboarding"
+        className="mt-6 px-4 py-2 bg-gray-200 rounded hover:bg-gray-300"
+      >
+        Back to Onboarding
       </Link>
     </div>
   );
