@@ -82,10 +82,11 @@ export default function Onboarding() {
         {step === 4 && (
           <div>
             <p className="mb-4">Great! You’re ready to go.</p>
-            <Link href="/dashboard">
-              <a className="inline-block px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700">
-                View Daily Brief
-              </a>
+            <Link
+              href="/dashboard"
+              className="inline-block px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"
+            >
+              View Daily Brief
             </Link>
           </div>
         )}
